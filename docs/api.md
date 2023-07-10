@@ -7,7 +7,7 @@
   * [ ] history
   * [ ] lock
   * [ ] refresh
-* [ ] instance
+* [ ] manager
   * [ ] new
   * [ ] info
   * [ ] run
@@ -30,6 +30,7 @@
   * [ ] uninstall
   * [ ] enable
   * [ ] disable
+* [ ] instances/`{instance_name}`/... (Simple API Only)
 
 ## Simple API
 
