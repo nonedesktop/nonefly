@@ -1,0 +1,21 @@
+[project]
+name = "nonefly-applets"
+version = "0.1.0"
+description = "NoneBot2 instances manager host for NoneDesktop applications."
+authors = [
+    {name = "HivertMoZara", email = "worldmozara@163.com"},
+]
+license = {text = "MIT"}
+dependencies = [
+    "fastapi[websockets]>=0.96,<1",
+    "nonebot-desktop-wing>=0.2.8"
+]
+requires-python = ">=3.9"
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package-data]
+"*" = ["*.pyi"]
